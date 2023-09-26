@@ -32,13 +32,8 @@
     color: black;
 }
 
-.main {
-    margin: 8px;
-}
-
 .section {
     max-width: 1100px;
-    height: 2000px;
     background-color: #baaf9e;
     boder-style: solid;
     border-width: 2px;
@@ -54,4 +49,30 @@ div * {
 body {
     margin: 0px;
     background-color: #0b101c;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.header-img {
+    width: calc(100% + 8em);
+    margin-left: -4em;
+    margin-top: -4em;
+}
+
+.header-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.one {
+    -webkit-mask-image-old: url(https://cdn.glitch.me/04eadd2b-7dd4-43fc-af3d-cff948811986%2Fstar-mask.png);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100%;
+    mask-size: 100%;
+    -webkit-mask-position: 0px -120px;
 }

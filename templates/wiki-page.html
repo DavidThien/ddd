@@ -1,6 +1,14 @@
 {% extends "base.html" %}
 
 {% block content %}
+
+{% if page.extra.header_img %}
+    <div class="header-img">
+        <img src={{page.extra.header_img}}, class="one"
+             style=" -webkit-mask-image: url({{get_url(path='/imgs/blend/mask-top.png')}})">
+    </div>
+    <div style="margin-top: -190px"></div>
+{% endif %}
 <h1 class="title">
     {{ page.title }}
 </h1>
