@@ -1,5 +1,6 @@
 +++
 title = "Edermayer"
+description = "The old pirate island"
 +++
 
 Edermayer is a fairly large island situated in the Mantay Sea. It has been a hotly contested island ever since people took to the seas, being acquired and lost by most of the major kingdoms of the region. However, for the last 100 years, it had remained a free state. What little governance it saw, was on a local basis, usually by councils who oversaw a minor peacekeeping force to keep things from getting too out of hand.

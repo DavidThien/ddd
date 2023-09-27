@@ -9,9 +9,20 @@
     </div>
     <div style="margin-top: -190px"></div>
 {% endif %}
+    {% if page.description %}
+    <div class="inline-desc">
 <h1 class="title">
     {{ page.title }}
 </h1>
-<p class="subtitle"><strong>{{ page.date }}</strong></p>
+<p class="description">
+  &nbsp &nbsp - &nbsp &nbsp
+  {{ page.description }}
+</p>
+</div>
+{% else %}
+<h1 class="title">
+    {{ page.title }}
+</h1>
+{% endif %}
 {{ page.content | safe }}
 {% endblock content %}
