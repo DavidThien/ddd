@@ -24,5 +24,13 @@
     {{ page.title }}
 </h1>
 {% endif %}
-{{ page.content | safe }}
+  {% if page.extra.style and page.extra.style == "handwriting" %}
+    <div class="handwriting">
+  {% endif%}
+
+  {{ page.content | safe }}
+
+  {% if page.extra.style and page.extra.style == "handwriting" %}
+    </div>
+  {% endif%}
 {% endblock content %}

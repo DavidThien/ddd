@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="title">
+    {{ section.title }}
+</h1>
+
+{{ section.content | safe }}
+
+<ul>
+  <!-- If you are using pagination, section.pages will be empty. You need to use the paginator object -->
+  {% for page in section.pages %}
+  <li><a href="{{ page.permalink | safe }}">{{ page.title }}
+    {% if page.description %}
+    - ({{ page.description }})
+    {% endif %}
+  </a></li>
+  {% endfor %}
+  {% for sub in section.subsections %}
+  {% set next_section = get_section(path=sub) %}
+
+  <li><a href="{{ next_section.permalink | safe }}">{{ next_section.title }}
+  </a></li>
+
+  {% for page in next_section.pages %}
+  {% endfor %}
+  {% endfor %}
+</ul>
+{% endblock content %}

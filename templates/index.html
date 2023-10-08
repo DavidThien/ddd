@@ -6,6 +6,19 @@
 </h1>
 
 <p>
-    Just some stuff here for now. But you can take me to the <a href="{{ get_url(path='@/wiki/_index.md') }}">wiki</a>.
+  Your one stop shop for all the things I have time to put up on here. This will be used mainly for lore, reminders on characters and items, and maps for easy reference. Not everything is here now, but you can got to the <a href="{{ get_url(path='@/wiki/_index.md') }}">wiki</a>.
 </p>
+
+<div class="bottom-img">
+  <img src="{{get_url(path='/imgs/landing.jpg')}}" class="one"
+       style=" -webkit-mask-image: url({{get_url(path='/imgs/blend/mask.png')}});
+            margin-bottom: 1px;
+            margin-left: -1px;
+            margin-top: 0px;
+            -webkit-mask-size: 100%;
+            -webkit-mask-position: 0px -375px;
+            mask-position: 0px -375px;
+            ">
+</div>
+
 {% endblock content %}

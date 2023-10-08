@@ -2,7 +2,7 @@
 title = "Kalibar"
 
 [extra]
-header_img = "https://cdna.artstation.com/p/assets/images/images/010/040/518/large/marina-beldiman-pirate-town.jpg?1522238835"
+header_img = "/wiki/kalibar/kalibar.jpg"
 +++
 
 
