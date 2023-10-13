@@ -6,7 +6,7 @@ description = "the start of our adventure"
 The largest city on Edermayer, Friedrick's Landing still retains much of the
 liveliness that existed before it was under the crown of Setallia. Although the
 majority of the trade activity happens in the northern port of New Cametton,
-Friderick's Landing still sees a good amount of ships through its port.
+Friedrick's Landing still sees a good amount of ships through its port.
 Recently, mainland Setallians have also made their way over to Friedrick's
 Landing, mostly for sightseeing.
 
