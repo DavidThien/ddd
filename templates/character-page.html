@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+{% if page.extra.header_img %}
+    <div class="header-img">
+        <img src={{get_url(path=page.extra.header_img)}} class="one"
+             style=" -webkit-mask-image: url({{get_url(path='/imgs/blend/mask-top.png')}})">
+    </div>
+    <div style="margin-top: -190px"></div>
+{% endif %}
+    {% if page.description %}
+    <div class="inline-desc">
+<h1 class="title">
+    {{ page.title }}
+</h1>
+<p class="description">
+  &nbsp &nbsp - &nbsp &nbsp
+  {{ page.description }}
+</p>
+</div>
+{% else %}
+<h1 class="title">
+    {{ page.title }}
+</h1>
+{% endif %}
+<div class="character-content">
+{{ page.content | safe }}
+</div>
+{% endblock content %}
