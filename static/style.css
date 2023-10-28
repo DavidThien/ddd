@@ -85,9 +85,9 @@ img {
 .one {
     -webkit-mask-repeat: no-repeat;
     mask-repeat: no-repeat;
-    -webkit-mask-size: 100%;
+    -webkit-mask-size: calc(100% + 3px);
     mask-size: 100%;
-    -webkit-mask-position: 0px -120px;
+    -webkit-mask-position: -3px -120px;
 }
 
 ul {
@@ -147,6 +147,7 @@ h1 {
     margin-top: 16px;
     width: 60%;
     max-width: 1000px;
+    font-size: 22px;
 }
 
 .quote p {
