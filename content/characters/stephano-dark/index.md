@@ -1,5 +1,6 @@
 +++
 title = "Stephano Dark"
+description = "the ringleader"
 +++
 
 ![Stephano Dark](stephano.jpg)

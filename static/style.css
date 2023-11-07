@@ -67,8 +67,10 @@ img {
 }
 
 .header-img img {
+    position: relative;
     width: 100%;
     object-fit: cover;
+    z-index: -5;
 }
 
 .bottom-img {
@@ -112,8 +114,13 @@ h1 {
     font-size: 2.5em;
 }
 
+.inline-desc {
+    margin: 26.8px 0px;
+}
+
 .inline-desc h1 {
     display: inline;
+    margin: 0px
 }
 
 .inline-desc p {

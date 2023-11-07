@@ -2,7 +2,7 @@
 title = "New Cametton"
 +++
 
-The major trading hub of Edermayer, and one of the largest in the Mantay Sea.
+The major trading hub of Edermayer, and the largest island in the Mantay Sea.
 Even under the pirates, the port saw massive business, although it was a
 slightly more illicit variety back then. New Cametton also has the largest
 Setallian presence on the island, and most of the natives have been kicked out.
@@ -19,3 +19,7 @@ There are also rumors of exploration into the northern part of the island
 starting from New Cametton. The mountains are thought to be largely impassible,
 and dangers lurk in the unexplored sections of the island, as well as rumors of
 artifacts from generations long past.
+
+## See also
+
+- [City map](@/maps/new_cametton/index.md)
